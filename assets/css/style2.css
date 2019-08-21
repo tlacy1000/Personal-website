@@ -305,7 +305,7 @@ header .container {
 
   figure2 {
     float: left;
-    width: 30%;
+    width: 50%;
     text-align: center;
     font-style: italic;
     font-size: smaller;
@@ -315,7 +315,7 @@ header .container {
   }
   figure1 {
     float: right;
-    width: 30%;
+    width: 50%;
     text-align: center;
     font-style: italic;
     font-size: smaller;
