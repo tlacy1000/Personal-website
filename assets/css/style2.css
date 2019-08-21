@@ -1,0 +1,500 @@
+.css-selector {
+  font-family: '<Antic', sans-serif;
+}
+
+header {
+  position: relative;
+  background-color: black(7,8,33);
+  color: whitesmoke;
+  height: 10px;
+  min-height: 50px;
+  width: 100%;
+  overflow: hidden;
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+  color: midnightblue;
+  padding: 20px;
+}
+body {
+   height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../images/burst.jpg');  
+}
+
+.image {
+  height: 200px;
+  width: 250px;
+}
+h1 {
+  margin: 20px 0;
+  padding: 20px 0;
+  color: whitesmoke;
+}
+h2 {
+  margin: 20px 0;
+  padding: 20px 0;
+  color: whitesmoke;
+}
+h4 {
+  text-indent: 100px;
+  float: center;
+  
+}
+
+figure2 {
+  float: left;
+  width: 30%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+figure1 {
+  float: right;
+  width: 30%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+main {
+  width: 1100px;
+  height: 600px;
+  color: whitesmoke;
+  margin: 0 auto;
+  padding: 20px 20px 20px 20px;
+  height: 100%;
+}
+.form-action {
+  width: 800px;
+  height: 800px;
+  margin: 0 auto;
+}
+.button {
+      background-color: turquoise;
+      border: none;
+      color: black;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+}
+
+li {
+  color: whitesmoke;
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+p.words {
+  display: inline-block;
+
+}
+
+.banner-text {
+  width: 100%;
+  color: whitesmoke;
+  position: absolute;
+}
+.banner-text li a {
+  height: 50px;
+  color: whitesmoke;
+  float:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Bigly*/
+
+@media screen and (max-width: 980px) {
+  #main {
+    width: 100%;
+  }
+  body {
+    height: 100%;
+     width: 100%;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center;
+     background-size: cover;
+     background-image: url('../images/burst.jpg');
+      
+ }
+ header {
+  position: relative;
+  background-color: black(7,8,33);
+  color: whitesmoke;
+  height: 10px;
+  min-height: 50px;
+  width: 100%;
+  overflow: hidden;
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+  color: midnightblue;
+  padding: 20px;
+}
+  h1 {
+    margin: 20px 0;
+    padding: 20px 0;
+    color: whitesmoke;
+  }
+  h2 {
+    margin: 20px 0;
+    padding: 20px 0;
+    color: whitesmoke;
+  }
+  main {
+    color: whitesmoke;
+    height: 100%;
+     width: 100%;
+  }
+  figure2 {
+    float: left;
+    width: 30%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    margin: 0.5em;
+    padding: 0.5em;
+  }
+  figure1 {
+    float: right;
+    width: 30%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    margin: 0.5em;
+    padding: 0.5em;
+  }
+ 
+  main {
+    width: 960px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px;
+  }
+  .form-action {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+  }
+  
+  li {
+    color: black;
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .button {
+    background-color: black; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+  
+  p.words {
+    display: inline-block;
+  
+  }
+  .banner-text {
+    width: 100%;
+    color: whitesmoke;
+    position: absolute;
+}
+  .banner-text li a {
+    height: 50px;
+    color: whitesmoke;
+    float:right;
+}
+  
+}
+
+
+
+
+
+
+
+/*medium screen below*/
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  #main {
+    width: 100%;
+  }
+  body {
+    height: 100%;
+     width: 100%;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center;
+     background-size: cover;
+     background-image: url('../images/burst.jpg');
+      
+ }
+ header {
+  position: relative;
+  background-color: black(7,8,33);
+  color: whitesmoke;
+  height: 10px;
+  min-height: 50px;
+  width: 100%;
+  overflow: hidden;
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+  color: midnightblue;
+  padding: 20px;
+}
+  h1 {
+    margin: 20px 0;
+    padding: 20px 0;
+    color: whitesmoke;
+  }
+  h2 {
+    margin: 20px 0;
+    padding: 20px 0;
+    color: whitesmoke;
+  }
+
+  figure2 {
+    float: left;
+    width: 30%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    margin: 0.5em;
+    padding: 0.5em;
+  }
+  figure1 {
+    float: right;
+    width: 30%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    margin: 0.5em;
+    padding: 0.5em;
+  }
+  
+  main {
+    width: 768px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px;
+  }
+  .form-action {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+  }
+
+  li {
+    color: whitesmoke;
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .button {
+    background-color: turquoise; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+  
+  p.words {
+    display: inline-block;
+  
+  }
+  .banner-text {
+    width: 100%;
+    color: whitesmoke;
+    position: absolute;
+}
+  .banner-text li a {
+    height: 50px;
+    color: whitesmoke;
+    float:right;
+}
+   
+}
+
+
+
+
+
+
+
+
+
+/*smol screen for smol cat below*/
+
+
+
+
+@media screen and (max-width: 640px) {
+  #main {
+    width: 100%;
+
+  }
+  header {
+    position: relative;
+    background-color: black(7,8,33);
+    color: whitesmoke;
+    height: 10px;
+    min-height: 50px;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+    color: midnightblue;
+    padding: 20px;
+  }
+  body {
+    height: 100%;
+     width: 100%;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center;
+     background-size: cover;
+     background-image: url('../images/burst.jpg');
+      
+ }
+  h1 {
+    margin: 20px 0;
+    padding: 20px 0;
+    color: whitesmoke;
+  }
+  h2 {
+    margin: 20px 0;
+    padding: 20px 0;
+    color: whitesmoke;
+  }
+  figure2 {
+    float: left;
+    width: 30%;
+    text-align: right;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0px;
+    margin: 0.5em;
+    padding: 0.5em;
+  }
+  figure1 {
+    float: right;
+    width: 30%;
+    text-align: left;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    margin: 0.5em;
+    padding: 0.5em;
+  }
+  
+  main {
+    position: relative;
+    width: 424px;
+    height: 700px;
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px;
+  }
+  .form-action {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+  li {
+    color: whitesmoke;
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.button {
+  background-color: turquoise; 
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+  
+p.words {
+    display: inline;
+  
+}
+.banner-text {
+      width: 100%;
+      color: whitesmoke;
+      position: absolute;
+}
+.banner-text li a {
+      height: 50px;
+      color: whitesmoke;
+      float:right;
+}
+    
+}
+
+
+
