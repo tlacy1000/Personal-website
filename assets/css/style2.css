@@ -170,7 +170,7 @@ header .container {
   h2 {
     margin: 20px 0;
     padding: 20px 0;
-    color: whitesmoke;
+    color: turquoise;
   }
   main {
     color: whitesmoke;
@@ -242,7 +242,7 @@ header .container {
   .banner-text li a {
     height: 50px;
     color: whitesmoke;
-    float:right;
+    float: right;
 }
   
 }
@@ -300,7 +300,7 @@ header .container {
   h2 {
     margin: 20px 0;
     padding: 20px 0;
-    color: whitesmoke;
+    color: turquoise;
   }
 
   figure2 {
@@ -424,11 +424,11 @@ header .container {
   h2 {
     margin: 20px 0;
     padding: 20px 0;
-    color: whitesmoke;
+    color: turquoise;
   }
   figure2 {
     float: left;
-    width: 30%;
+    width: 60%;
     text-align: right;
     font-style: italic;
     font-size: smaller;
@@ -438,7 +438,7 @@ header .container {
   }
   figure1 {
     float: right;
-    width: 30%;
+    width: 60%;
     text-align: left;
     font-style: italic;
     font-size: smaller;
@@ -455,8 +455,8 @@ header .container {
     padding: 20px 20px 20px 20px;
   }
   .form-action {
-    width: 600px;
-    height: 600px;
+    width: 300px;
+    height: 300px;
     margin: 0 auto;
 }
 
@@ -489,7 +489,7 @@ p.words {
       position: absolute;
 }
 .banner-text li a {
-      height: 50px;
+      height: 20px;
       color: whitesmoke;
       float:right;
 }
