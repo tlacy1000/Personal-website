@@ -4,14 +4,12 @@
 
 header {
     position: relative;
-    background-color: black(7,8,33);
-    height: 100vh;
-    min-height: 50rem;
+    background-color: rgb(7,8,33);
     width: 100%;
     overflow: hidden;
 }
 
-header video {
+video {
   position: absolute;
   top: 60%;
   left: 50%;
@@ -27,14 +25,14 @@ header video {
   transform: translateX(-50%) translateY(-50%);
 }
 
-header .container {
+.container {
     position: relative;
     z-index: 2;
     color: black;
     padding: 20px;
   }
   
-header .overlay {
+.overlay {
     position: absolute;
     top: 50px;
     left: 0;
@@ -122,13 +120,11 @@ p.words {
   }
   header {
     position: relative;
-    background-color: black(7,8,33);
-    height: 100vh;
-    min-height: 50rem;
+    background-color: rgb(7,8,33);
     width: 100%;
     overflow: hidden;
 }
-header video {
+video {
   position: absolute;
   top: 60%;
   left: 50%;
@@ -144,14 +140,14 @@ header video {
   transform: translateX(-50%) translateY(-50%);
 }
 
-header .container {
+.container {
     position: relative;
     z-index: 2;
     color: black;
     padding: 20px;
   }
   
-header .overlay {
+.overlay {
     position: absolute;
     top: 50px;
     left: 0;
@@ -232,13 +228,11 @@ main {
   }
   header {
     position: relative;
-    background-color: black(7,8,33);
-    height: 100vh;
-    min-height: 50rem;
+    background-color: rgb(7,8,33);
     width: 100%;
     overflow: hidden;
 }
-header video {
+video {
   position: absolute;
   top: 60%;
   left: 50%;
@@ -254,14 +248,14 @@ header video {
   transform: translateX(-50%) translateY(-50%);
 }
 
-header .container {
+.container {
     position: relative;
     z-index: 2;
     color: black;
     padding: 20px;
   }
   
-header .overlay {
+.overlay {
     position: absolute;
     top: 50px;
     left: 0;
@@ -337,7 +331,7 @@ header .overlay {
 
   }
 
-header video {
+video {
   position: absolute;
   top: 60%;
   left: 50%;
@@ -353,14 +347,14 @@ header video {
   transform: translateX(-50%) translateY(-50%);
 }
 
-header .container {
+.container {
     position: relative;
     z-index: 2;
     color: whitesmoke;
     padding: 20px;
   }
   
-header .overlay {
+.overlay {
     position: absolute;
     top: 50px;
     left: 0;
