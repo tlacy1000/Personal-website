@@ -101,7 +101,7 @@ p.words {
   position: absolute;
 }
 .banner-text li a {
-  height: 50px;
+  height: 100px;
   color: black;
   float:right;
 }
