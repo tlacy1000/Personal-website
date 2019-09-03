@@ -5,8 +5,8 @@
 header {
     position: relative;
     background-color: black(7,8,33);
-    height: 50px;
-    min-height: 50px;
+    height: 100vh;
+    min-height: 50rem;
     width: 100%;
     overflow: hidden;
 }
@@ -16,8 +16,8 @@ header video {
   top: 60%;
   left: 50%;
   bottom: 0;
-  min-width: 600px;
-  min-height: 600px;
+  min-width: 100%;
+  min-height: 100%;
   width: auto;
   height: auto;
   z-index: 0;
@@ -29,21 +29,12 @@ header video {
 
 header .container {
     position: relative;
-    z-index: 2;
+    z-index: 0;
     color: black;
-    padding: 10px;
+    padding: 20px;
   }
   
-header .overlay {
-    position: absolute;
-    top: 50px;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    opacity: 0.25;
-    z-index: 1;
-  }
+
 body {
    height: 100%;
     width: 100%;
@@ -101,7 +92,7 @@ p.words {
   position: absolute;
 }
 .banner-text li a {
-  height: 100px;
+  height: 50px;
   color: black;
   float:right;
 }
@@ -412,12 +403,12 @@ p.words {
       position: absolute;
 }
 .banner-text ul {
-      height: 50px;
+      width: 100%;
+      height: 20px;
       color: whitesmoke;
       float:right;
 }
     
 }
-
 
 
