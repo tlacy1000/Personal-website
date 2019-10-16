@@ -2,6 +2,7 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   background-size: cover;
@@ -28,6 +29,7 @@ nav a {
   color: inherit;
   padding: 1rem;
 }
+
 h2 { 
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 8vmin;
@@ -37,6 +39,15 @@ h2 {
   color: aquamarine;
   font-weight: 100;
 }
+.overlay {
+  position:absolute;
+  height: 100%;
+  width: 100%;
+  background-color:rgba(0, 0, 0, 0.85);
+  z-index: -2;
+  opacity: 0.8;
+  color:white;
+}
 body {
    height: 100%;
     width: 100%;
@@ -44,7 +55,9 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    background-image: url('../images/burst.jpg');  
+    z-index: 0;
+    opacity: 0.9;
+    background-image: url('../images/lightblue.jpg');  
 }
 
 .image {
