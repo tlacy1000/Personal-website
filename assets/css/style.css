@@ -1,423 +1,57 @@
-.css-selector {
-  font-family: '<Antic', sans-serif;
-}
 
-header {
-    position: relative;
-    background-color: black(7,8,33);
-    height: 100vh;
-    min-height: 25rem;
-    width: 100%;
-    overflow: hidden;
+* {
+  box-sizing: border-box;
 }
-
-header video {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  bottom: 0;
-  min-width: 600px;
-  min-height: 600px;
-  width: auto;
-  height: auto;
-  z-index: 0;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-}
-
-header .container {
-    position: relative;
-    z-index: 2;
-    color: black;
-    padding: 20px;
-  }
-  
-header .overlay {
-    position: absolute;
-    top: 50px;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    opacity: 0.25;
-    z-index: 1;
-  }
 body {
-   height: 100%;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    background-color: black;
-}
-
-h1 {
-  margin: 20px 0;
-  padding: 20px 0;
-  color: whitesmoke;
-}
-h2 {
-  margin: 20px 0;
-  padding: 20px 0;
-  color: black;
-}
-h4 {
-  text-indent: 100px;
-  float: center;
+  margin: 0;
   
+  background-size: cover;
 }
-
-main {
-  width: 960px;
-  height: 600px;
-  margin: 0 auto;
-  background-color: black;
-  padding: 20px 20px 20px 20px;
+video { 
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
-
-
-li {
-  color: black;
-  float: right;
-  display: block;
-  text-align: center;
-  padding: 20px 20px;
-  text-decoration: none;
+div#welcome {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-
-p.words {
-  display: inline-block;
-  color: lavender;
-
-}
-
-.banner-text {
+header {
+  position: fixed;
   width: 100%;
-  color: black;
-  position: absolute;
+  text-align: center;
+  color: white;
+  transition: .4s;
 }
-.banner-text li a {
-  height: 50px;
-  color: black;
-  float:right;
+header:hover {
+  background: rgba(255,255,255,0.8);
+  color: #000;
 }
-
-
-
-
-
-
-
-
-
-/*Bigly*/
-
-@media screen and (max-width: 980px) {
-  #main {
-    width: 100%;
-  }
-  header {
-    position: relative;
-    background-color: black(7,8,33);
-    height: 100vh;
-    min-height: 50rem;
-    width: 100%;
-    overflow: hidden;
-}
-header video {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: 0;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-}
-
-header .container {
-    position: relative;
-    z-index: 2;
-    color: black;
-    padding: 20px;
-  }
-  
-header .overlay {
-    position: absolute;
-    top: 50px;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    opacity: 0.25;
-    z-index: 1;
-  }
-
 h1 {
-    margin: 20px 0;
-    padding: 20px 0;
-    color: whitesmoke;
-  }
-h2 {
-    margin: 20px 0;
-    padding: 20px 0;
-    color: black;
-  }
- 
-
-main {
-    width: 960px;
-    height: 600px;
-    margin: 0 auto;
-    background-color: whitesmoke;
-    padding: 20px 20px 20px 20px;
-  }
-  
-  li {
-    color: black;
-    float: right;
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  
-  p.words {
-    display: inline-block;
-    color: lavender;
-  
-  }
-  .banner-text {
-    width: 100%;
-    background-color: black;
-    color: black;
-    position: absolute;
+  font-family: 'biorhyme';
+  text-align: center;
+  color: black;
+  font-size: 2rem;
+  width: 100%;
+  letter-spacing: .5rem;
 }
-  .banner-text ul {
-    height: 50px;
-    color: black;
-    float:right;
+nav a {
+  text-decoration: none;
+  color: inherit;
+  padding: 1rem;
 }
-  
+h2 { 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 8vmin;
+  text-align: center;
+  margin: 2rem 3rem 0;
+  mix-blend-mode: difference;
+  color: white;
+  font-weight: 100;
 }
-
-
-
-
-
-
-
-/*medium screen below*/
-
-
-
-
-
-
-
-
-@media screen and (max-width: 768px) {
-  #main {
-    width: 100%;
-  }
-  header {
-    position: relative;
-    background-color: black(7,8,33);
-    height: 100vh;
-    min-height: 50rem;
-    width: 100%;
-    overflow: hidden;
-}
-header video {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: 0;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-}
-
-header .container {
-    position: relative;
-    z-index: 2;
-    color: black;
-    padding: 20px;
-  }
-  
-header .overlay {
-    position: absolute;
-    top: 50px;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    opacity: 0.25;
-    z-index: 1;
-  }
-
-  h1 {
-    margin: 20px 0;
-    padding: 20px 0;
-    color: whitesmoke;
-  }
-  h2 {
-    margin: 20px 0;
-    padding: 20px 0;
-    color: black;
-  }
-
-  main {
-    width: 768px;
-    height: 600px;
-    margin: 0 auto;
-    background-color: whitesmoke;
-    padding: 20px 20px 20px 20px;
-  }
-
-  li {
-    color: whitesmoke;
-    float: right;
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  p.words {
-    display: inline-block;
-    color: lavender;
-  
-  }
-  .banner-text {
-    width: 100%;
-    color: whitesmoke;
-    position: absolute;
-}
-  .banner-text ul {
-    height: 50px;
-    color: whitesmoke;
-    float:right;
-}
-   
-}
-
-
-
-
-
-
-
-
-
-/*smol screen for smol cat below*/
-
-
-
-
-@media screen and (max-width: 640px) {
-  #main {
-    width: 100%;
-
-  }
-
-header video {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: 0;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-}
-
-header .container {
-    position: relative;
-    z-index: 2;
-    color: whitesmoke;
-    padding: 20px;
-  }
-  
-header .overlay {
-    position: absolute;
-    top: 50px;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    opacity: 0.25;
-    z-index: 1;
-  }
-
-
-  h1 {
-    margin: 20px 0;
-    padding: 20px 0;
-    color: whitesmoke;
-  }
-  h2 {
-    margin: 20px 0;
-    padding: 20px 0;
-    color: black;
-  }
-
-  main {
-    position: relative;
-    width: 424px;
-    height: 700px;
-    margin: 0 auto;
-    background-color: whitesmoke;
-    padding: 20px 20px 20px 20px;
-  }
-
-  li {
-    color: whitesmoke;
-    float: right;
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-p.words {
-    display: inline-block;
-  
-}
-.banner-text {
-      width: 100%;
-      color: black;
-      background-color: white;
-      position: absolute;
-}
-.banner-text ul {
-      height: 50px;
-      color: whitesmoke;
-      float:right;
-}
-    
-}
-
-
-
